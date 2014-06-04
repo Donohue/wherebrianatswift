@@ -23,6 +23,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         locationManager = CLLocationManager()
         locationManager!.desiredAccuracy = kCLDistanceFilterNone
         locationManager!.delegate = self
+        locationManager!.requestAlwaysAuthorization() //New iOS8 API
     }
     
     override func loadView() {
