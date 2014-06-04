@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A818A3A8193E45170030827B /* UserAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A818A3A7193E45170030827B /* UserAnnotationView.swift */; };
+		A818A3AC193E63A30030827B /* brian_profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A818A3A9193E63A30030827B /* brian_profile.jpg */; };
+		A818A3AD193E63A30030827B /* dropperblue.png in Resources */ = {isa = PBXBuildFile; fileRef = A818A3AA193E63A30030827B /* dropperblue.png */; };
+		A818A3AE193E63A30030827B /* dropperblue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A818A3AB193E63A30030827B /* dropperblue@2x.png */; };
 		A861FF77193E0F7800247AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A861FF76193E0F7800247AC8 /* AppDelegate.swift */; };
 		A861FF79193E0F7800247AC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A861FF78193E0F7800247AC8 /* Images.xcassets */; };
 		A861FF85193E0F7800247AC8 /* WhereBrianAtSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A861FF84193E0F7800247AC8 /* WhereBrianAtSwiftTests.swift */; };
+		A861FF8F193E0FB500247AC8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A861FF8E193E0FB500247AC8 /* MapViewController.swift */; };
+		A861FFA6193E315900247AC8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FF94193E315900247AC8 /* AFHTTPRequestOperation.m */; };
+		A861FFA7193E315900247AC8 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FF96193E315900247AC8 /* AFHTTPRequestOperationManager.m */; };
+		A861FFA8193E315900247AC8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FF98193E315900247AC8 /* AFHTTPSessionManager.m */; };
+		A861FFA9193E315900247AC8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FF9B193E315900247AC8 /* AFNetworkReachabilityManager.m */; };
+		A861FFAA193E315900247AC8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FF9D193E315900247AC8 /* AFSecurityPolicy.m */; };
+		A861FFAB193E315900247AC8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FF9F193E315900247AC8 /* AFURLConnectionOperation.m */; };
+		A861FFAC193E315900247AC8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FFA1193E315900247AC8 /* AFURLRequestSerialization.m */; };
+		A861FFAD193E315900247AC8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FFA3193E315900247AC8 /* AFURLResponseSerialization.m */; };
+		A861FFAE193E315900247AC8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A861FFA5193E315900247AC8 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A818A3A7193E45170030827B /* UserAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAnnotationView.swift; sourceTree = "<group>"; };
+		A818A3A9193E63A30030827B /* brian_profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brian_profile.jpg; sourceTree = "<group>"; };
+		A818A3AA193E63A30030827B /* dropperblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropperblue.png; sourceTree = "<group>"; };
+		A818A3AB193E63A30030827B /* dropperblue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropperblue@2x.png"; sourceTree = "<group>"; };
 		A861FF71193E0F7800247AC8 /* WhereBrianAtSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereBrianAtSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A861FF75193E0F7800247AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A861FF76193E0F7800247AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +48,27 @@
 		A861FF7E193E0F7800247AC8 /* WhereBrianAtSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereBrianAtSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A861FF83193E0F7800247AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A861FF84193E0F7800247AC8 /* WhereBrianAtSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereBrianAtSwiftTests.swift; sourceTree = "<group>"; };
+		A861FF8E193E0FB500247AC8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A861FF92193E315800247AC8 /* WhereBrianAtSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhereBrianAtSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		A861FF93193E315900247AC8 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A861FF94193E315900247AC8 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A861FF95193E315900247AC8 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A861FF96193E315900247AC8 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A861FF97193E315900247AC8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A861FF98193E315900247AC8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A861FF99193E315900247AC8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A861FF9A193E315900247AC8 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A861FF9B193E315900247AC8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A861FF9C193E315900247AC8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A861FF9D193E315900247AC8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A861FF9E193E315900247AC8 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A861FF9F193E315900247AC8 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A861FFA0193E315900247AC8 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A861FFA1193E315900247AC8 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A861FFA2193E315900247AC8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A861FFA3193E315900247AC8 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A861FFA4193E315900247AC8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A861FFA5193E315900247AC8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +113,12 @@
 				A861FF76193E0F7800247AC8 /* AppDelegate.swift */,
 				A861FF78193E0F7800247AC8 /* Images.xcassets */,
 				A861FF74193E0F7800247AC8 /* Supporting Files */,
+				A861FF8E193E0FB500247AC8 /* MapViewController.swift */,
+				A818A3A7193E45170030827B /* UserAnnotationView.swift */,
+				A818A3A9193E63A30030827B /* brian_profile.jpg */,
+				A818A3AA193E63A30030827B /* dropperblue.png */,
+				A818A3AB193E63A30030827B /* dropperblue@2x.png */,
+				A861FF91193E314500247AC8 /* AFNetworking */,
 			);
 			path = WhereBrianAtSwift;
 			sourceTree = "<group>";
@@ -101,6 +146,33 @@
 				A861FF83193E0F7800247AC8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A861FF91193E314500247AC8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A861FF93193E315900247AC8 /* AFHTTPRequestOperation.h */,
+				A861FF94193E315900247AC8 /* AFHTTPRequestOperation.m */,
+				A861FF95193E315900247AC8 /* AFHTTPRequestOperationManager.h */,
+				A861FF96193E315900247AC8 /* AFHTTPRequestOperationManager.m */,
+				A861FF97193E315900247AC8 /* AFHTTPSessionManager.h */,
+				A861FF98193E315900247AC8 /* AFHTTPSessionManager.m */,
+				A861FF99193E315900247AC8 /* AFNetworking.h */,
+				A861FF9A193E315900247AC8 /* AFNetworkReachabilityManager.h */,
+				A861FF9B193E315900247AC8 /* AFNetworkReachabilityManager.m */,
+				A861FF9C193E315900247AC8 /* AFSecurityPolicy.h */,
+				A861FF9D193E315900247AC8 /* AFSecurityPolicy.m */,
+				A861FF9E193E315900247AC8 /* AFURLConnectionOperation.h */,
+				A861FF9F193E315900247AC8 /* AFURLConnectionOperation.m */,
+				A861FFA0193E315900247AC8 /* AFURLRequestSerialization.h */,
+				A861FFA1193E315900247AC8 /* AFURLRequestSerialization.m */,
+				A861FFA2193E315900247AC8 /* AFURLResponseSerialization.h */,
+				A861FFA3193E315900247AC8 /* AFURLResponseSerialization.m */,
+				A861FFA4193E315900247AC8 /* AFURLSessionManager.h */,
+				A861FFA5193E315900247AC8 /* AFURLSessionManager.m */,
+				A861FF92193E315800247AC8 /* WhereBrianAtSwift-Bridging-Header.h */,
+			);
+			name = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A818A3AC193E63A30030827B /* brian_profile.jpg in Resources */,
+				A818A3AD193E63A30030827B /* dropperblue.png in Resources */,
 				A861FF79193E0F7800247AC8 /* Images.xcassets in Resources */,
+				A818A3AE193E63A30030827B /* dropperblue@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +275,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A818A3A8193E45170030827B /* UserAnnotationView.swift in Sources */,
+				A861FFAC193E315900247AC8 /* AFURLRequestSerialization.m in Sources */,
+				A861FFAB193E315900247AC8 /* AFURLConnectionOperation.m in Sources */,
+				A861FFAA193E315900247AC8 /* AFSecurityPolicy.m in Sources */,
+				A861FFA6193E315900247AC8 /* AFHTTPRequestOperation.m in Sources */,
+				A861FFAE193E315900247AC8 /* AFURLSessionManager.m in Sources */,
+				A861FFAD193E315900247AC8 /* AFURLResponseSerialization.m in Sources */,
 				A861FF77193E0F7800247AC8 /* AppDelegate.swift in Sources */,
+				A861FFA8193E315900247AC8 /* AFHTTPSessionManager.m in Sources */,
+				A861FFA7193E315900247AC8 /* AFHTTPRequestOperationManager.m in Sources */,
+				A861FFA9193E315900247AC8 /* AFNetworkReachabilityManager.m in Sources */,
+				A861FF8F193E0FB500247AC8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +393,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WhereBrianAtSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhereBrianAtSwift/WhereBrianAtSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -318,9 +408,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WhereBrianAtSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhereBrianAtSwift/WhereBrianAtSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -379,6 +472,7 @@
 				A861FF8A193E0F7800247AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A861FF8B193E0F7800247AC8 /* Build configuration list for PBXNativeTarget "WhereBrianAtSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +481,7 @@
 				A861FF8D193E0F7800247AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
